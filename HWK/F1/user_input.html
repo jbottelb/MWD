@@ -5,8 +5,31 @@
     <title>"User input example"</title>
     <!-- Page with an example of user interaction -->
   </head>
+
+  </div>
   <body>
-    <a href="index.html">Go back</a>
-    <h1> User Input </h1>
+    <a href="index.html">Home</a>
+    <!-- Here is an example of letting a user select a file from their computer
+            It also has a drop selector -->
+    <h1> Upload a File </h1>
+    <form method="post" action="redirect.html">
+        <br>
+        <label for="Selection">File type </label>
+        <br>
+
+        <!-- Here is an example of a selector -->
+       <select name="selection" id="selection_id">
+         <option value="resume">Resume</option>
+         <option value="cover_letter">Cover Letter</option>
+         <option value="other_file">Other file</option>
+       </select>
+       <br>
+       <!-- File selector -->
+       <input type = "file" name = "fileupload" accept = "image/*" />
+       <br>
+       <!-- Ideally the form would connect to a server, but we are not there yet -->
+       <input type="submit" value="Submit">
+   </form>
+
   </body>
 </html>
