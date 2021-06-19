@@ -1,0 +1,14 @@
+{
+  "name": "react-app-without-webpack-forked",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "serve": "^11.2.0"
+  },
+  "keywords": []
+}

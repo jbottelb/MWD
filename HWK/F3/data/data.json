@@ -1,0 +1,34 @@
+[
+  {
+    "user": "Example user",
+    "password": "pw1",
+    "access_key": "someacesskey",
+    "data": [
+      {
+        "award": "An award title",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "Example user 2",
+    "password": "pw2",
+    "access_key": "someacesskey2",
+    "data": [
+      {
+        "award": "An award title for a different post",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      }
+    ]
+  }
+]
