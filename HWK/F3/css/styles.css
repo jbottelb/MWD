@@ -1,13 +1,18 @@
 /* default CSS styles */
+/* This will be slowly replaced as more of the site is built */
+
+
 body {
     background-color: lightgrey;
 }
 
+/* holds form items, keeps them centered */
 div.container {
   display: flex;
   justify-content: center;
 }
 
+/* for the form inputs */
 select {
   width: 100%;
   padding: 16px 20px;
@@ -28,6 +33,7 @@ input[type=button], input[type=submit], input[type=reset] {
   width: 100%;
 }
 
+/* general text styling */
 p {
   text-align: center;
   font-family: Georgia, 'Times New Roman', Times, serif;

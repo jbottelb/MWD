@@ -28,7 +28,9 @@ function App() {
   <h1>Superlative Voter</h1>
   <p>Pardon the dust: The site is still heavily under development. 
   most features will be placeholders and not functioning yet.
-  Submitting will not lead anywhere.</p>
+  Submitting will not lead anywhere.
+  <a href="../README.md"> Project status </a>
+  </p>
   <div class="container">
     <form action="../voter.html">
       <select name="users" id="users" form="userform">
@@ -40,7 +42,8 @@ function App() {
       <input type="submit" value="Submit" />
     </form>
   </div>
-  <p> (this is here to clearly seperate the two containers) </p>
+  <p> (this is here to clearly seperate the two containers) 
+  </p>
   `;
 }
 

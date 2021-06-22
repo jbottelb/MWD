@@ -21,7 +21,7 @@ function viewer() {
 
   // Display a voting page
   // Once again, once we learn routing I can do this a lot better
-  // and specific forms will be displayed
+  // and specific forms will be displayed. 
   // the form will also have a vote action when a server exists
   // The submit button will eventually update the votes
 

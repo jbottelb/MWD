@@ -1,102 +1,103 @@
 [
-  {
-    "user": "Example user",
-    "password": "pw1",
-    "access_key": "someacesskey",
-    "data": [
-      {
-        "award": "An award title",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 5
-          },
-          {
-            "name": "Another candidate",
-            "votes": 5
-          },
-          {
-            "name": "A third candidate",
-            "votes": 5
-          }
-        ]
-      },
-      {
-        "award": "A second award title",
-        "candidates": [
-          {
-            "name": "Another",
-            "votes": 5
-          },
-          {
-            "name": "Another candidate",
-            "votes": 5
-          },
-          {
-            "name": "A third candidate",
-            "votes": 5
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "Example user 2",
-    "password": "pw2",
-    "access_key": "someacesskey2",
-    "data": [
-      {
-        "award": "An award title for a different post",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 0
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "user": "Jeff's Graduating class",
-    "password": "pw3",
-    "access_key": "someacesskey3",
-    "data": [
-      {
-        "award": "An award title for a different post",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 0
-          }
-        ]
-      },
-      {
-        "award": "An award title for a different post",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 0
-          }
-        ]
-      },
-      {
-        "award": "An award title for a different post",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 0
-          }
-        ]
-      },
-      {
-        "award": "An award title for a different post",
-        "candidates": [
-          {
-            "name": "Name of candidate",
-            "votes": 0
-          }
-        ]
-      }
-    ]
-  }
-]
+    {
+      "user": "Example user",
+      "password": "pw1",
+      "access_key": "someacesskey",
+      "data": [
+        {
+          "award": "An award title",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 5
+            },
+            {
+              "name": "Another candidate",
+              "votes": 5
+            },
+            {
+              "name": "A third candidate",
+              "votes": 5
+            }
+          ]
+        },
+        {
+          "award": "A second award title",
+          "candidates": [
+            {
+              "name": "Another",
+              "votes": 5
+            },
+            {
+              "name": "Another candidate",
+              "votes": 5
+            },
+            {
+              "name": "A third candidate",
+              "votes": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "Example user 2",
+      "password": "pw2",
+      "access_key": "someacesskey2",
+      "data": [
+        {
+          "award": "An award title for a different post",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "Jeff's Graduating class",
+      "password": "pw3",
+      "access_key": "someacesskey3",
+      "data": [
+        {
+          "award": "An award title for a different post",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 0
+            }
+          ]
+        },
+        {
+          "award": "An award title for a different post",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 0
+            }
+          ]
+        },
+        {
+          "award": "An award title for a different post",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 0
+            }
+          ]
+        },
+        {
+          "award": "An award title for a different post",
+          "candidates": [
+            {
+              "name": "Name of candidate",
+              "votes": 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+  
