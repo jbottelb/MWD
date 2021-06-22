@@ -6,9 +6,9 @@
         "data": [
             {
                 "award" : "An award title",
-                "canidates" : [
+                "candidates" : [
                     {
-                        "name" : "Name of canidate",
+                        "name" : "Name of candidate",
                         "votes" : 0
                     }
                 ]
@@ -22,9 +22,9 @@
         "data": [
             {
                 "award" : "An award title for a different post",
-                "canidates" : [
+                "candidates" : [
                     {
-                        "name" : "Name of canidate",
+                        "name" : "Name of candidate",
                         "votes" : 0
                     }
                 ]

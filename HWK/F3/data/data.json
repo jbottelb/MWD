@@ -6,34 +6,34 @@
     "data": [
       {
         "award": "An award title",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 5
           },
           {
-            "name": "Another Canidate",
+            "name": "Another candidate",
             "votes": 5
           },
           {
-            "name": "A third Canidate",
+            "name": "A third candidate",
             "votes": 5
           }
         ]
       },
       {
         "award": "A second award title",
-        "canidates": [
+        "candidates": [
           {
             "name": "Another",
             "votes": 5
           },
           {
-            "name": "Another Canidate",
+            "name": "Another candidate",
             "votes": 5
           },
           {
-            "name": "A third Canidate",
+            "name": "A third candidate",
             "votes": 5
           }
         ]
@@ -47,9 +47,9 @@
     "data": [
       {
         "award": "An award title for a different post",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 0
           }
         ]
@@ -63,36 +63,36 @@
     "data": [
       {
         "award": "An award title for a different post",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 0
           }
         ]
       },
       {
         "award": "An award title for a different post",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 0
           }
         ]
       },
       {
         "award": "An award title for a different post",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 0
           }
         ]
       },
       {
         "award": "An award title for a different post",
-        "canidates": [
+        "candidates": [
           {
-            "name": "Name of canidate",
+            "name": "Name of candidate",
             "votes": 0
           }
         ]

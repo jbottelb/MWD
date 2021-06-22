@@ -6,7 +6,10 @@ import {
 } from "https://unpkg.com/htm/preact/standalone.module.js";
 
 import { getUsers } from "./users.js";
+import { UserForm } from "./UserForm.js";
 
+
+// Gets users data and displays a form with all the options for each
 function viewer() {
   const [users, setUsers] = useState([]);
 
@@ -20,28 +23,16 @@ function viewer() {
   // Once again, once we learn routing I can do this a lot better
   // and specific forms will be displayed
   // the form will also have a vote action when a server exists
+  // The submit button will eventually update the votes
 
   return html`
   ${users.map(
     (user) => 
     html ` <h2>${user.user}</h2>
-    <form action="">
-    ${user.data.map(
-      (award) => html `<p>${award.award}</p>
-      <select name="${award.award}" id="${award.award}" form="userform">
-      ${award.canidates.map(
-        (canidate) => 
-        html `
-        <option value="${canidate.name}">${canidate.name}</option>
-        `
-      
-      )}</select>`
-    )}
-    <input type="submit" value="Submit" />
-    </form>`
+    <${UserForm} userData=${user.data} />
+    `
   )}
   `;
 }
 
 render(html` <${viewer} /> `, document.getElementById("component2"));
-  
