@@ -9,7 +9,32 @@
         "canidates": [
           {
             "name": "Name of canidate",
-            "votes": 0
+            "votes": 5
+          },
+          {
+            "name": "Another Canidate",
+            "votes": 5
+          },
+          {
+            "name": "A third Canidate",
+            "votes": 5
+          }
+        ]
+      },
+      {
+        "award": "A second award title",
+        "canidates": [
+          {
+            "name": "Another",
+            "votes": 5
+          },
+          {
+            "name": "Another Canidate",
+            "votes": 5
+          },
+          {
+            "name": "A third Canidate",
+            "votes": 5
           }
         ]
       }
@@ -20,6 +45,49 @@
     "password": "pw2",
     "access_key": "someacesskey2",
     "data": [
+      {
+        "award": "An award title for a different post",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "user": "Jeff's Graduating class",
+    "password": "pw3",
+    "access_key": "someacesskey3",
+    "data": [
+      {
+        "award": "An award title for a different post",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      },
+      {
+        "award": "An award title for a different post",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      },
+      {
+        "award": "An award title for a different post",
+        "canidates": [
+          {
+            "name": "Name of canidate",
+            "votes": 0
+          }
+        ]
+      },
       {
         "award": "An award title for a different post",
         "canidates": [
